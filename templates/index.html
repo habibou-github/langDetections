@@ -13,12 +13,7 @@
 
         <form class="grid" action="/result" method="POST">
 
-          {% if name %}
-            <center>
-              <h3 style="color: blue;" class="let_space">{{name}}</h3>
-            </center> 
 
-          {% endif %}
            
           <label for="name">Enter the text you want to detect its language :</label>
           <input type="text" id="name" name="name">
@@ -27,7 +22,7 @@
 
         </form>
 
-        
+
 
         
 
@@ -35,7 +30,15 @@
         <br>
         <br>
         <br>
+          {% if name %}
+            <center>
+              <h2 style="color: blue;" class="let_space">{{name}}</h2>
+              <br>
+              <h4>{{out}}</h4>
 
+            </center>
+
+          {% endif %}
 
     </body>
 

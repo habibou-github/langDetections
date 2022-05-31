@@ -3,8 +3,8 @@ html,body{
     padding: 0px;
     list-style: none;
     box-sizing: border-box;
-    font-family: 'Rubik';
-    letter-spacing: 3px;
+    font-family: system-ui;
+    letter-spacing: 1px;
 }
 
 
